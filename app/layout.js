@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FICOFI - My Community - Proofs of Consumption",
+  title: "FICOFI - My Community - Event register",
   description: "© 2024, All rights reserved",
 };
 

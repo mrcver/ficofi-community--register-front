@@ -33,7 +33,7 @@ export default function Home() {
             width={225}
             height={75}
             alt="FICOFI Community"/>
-          <h1 className={styles.subtitle}>Event register</h1>
+          <h1 className={styles.subtitle}>Event registration</h1>
         </header>
         <Image
           src={loader}
@@ -53,7 +53,7 @@ export default function Home() {
           width={225}
           height={75}
           alt="FICOFI Community"/>
-        <h1 className={styles.subtitle}>Event register</h1>
+        <h1 className={styles.subtitle}>Event registration</h1>
       </header>
       <table className={styles.table}>
         <thead className={styles.thead}>

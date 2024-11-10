@@ -1,5 +1,5 @@
 .main {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +81,9 @@
 
 .loader {
   background: none;
+  position: absolute;
+  top: 50%;
+  left: 48%;
 }
 
 .center {
@@ -123,14 +126,27 @@
   text-align: center;
 }
 
+/*.header {*/
+/*  width: 100%;*/
+/*  text-align: left;*/
+/*  display: table;*/
+/*}*/
 .header {
   width: 100%;
   text-align: left;
   display: table;
+  position: relative;
+  min-height: 79px;
+}
+
+.header img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .header h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .header h2 {

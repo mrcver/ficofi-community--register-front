@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import {useEffect, useState} from "react";
 import axios from "axios";
-import Link from "next/link";
 import ficofiLogo from "/public/FICOFI_Community.svg"
 import loader from "/public/loader.svg"
 
@@ -15,8 +14,8 @@ export default function Home() {
     const fetchData = async () => {
       const result = await axios(
         // TODO replace prd url
-        // "https://ficofi-community-backend.azurewebsites.net/register-list",
-        "https://ficofi-community-backend-dev-f3c9eabeb5akcsb4.southeastasia-01.azurewebsites.net/register-list",
+        "https://ficofi-community-backend.azurewebsites.net/register-list",
+        // "https://ficofi-community-backend-dev-f3c9eabeb5akcsb4.southeastasia-01.azurewebsites.net/register-list",
         {headers: {"Authorization": `Basic Zmljb2ZpOjNibWVpYTc0TzFOdA==`}}
       );
       setLoading(false)

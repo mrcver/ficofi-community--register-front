@@ -73,7 +73,7 @@ export default function Home() {
             <td>
               <pre>{item.event_name}</pre>
             </td>
-            <td><p>{item.event_date}</p></td>
+            <td><p>{item.event_date || ''}</p></td>
             <td><p>{item.customer_name}</p></td>
             <td><p>{item.customer_dietary_restrictions}</p></td>
             <td><p>{item.guest_name}</p></td>
